@@ -1,0 +1,79 @@
+body
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(241, 241, 241);
+    background-color: rgb(25, 25, 26);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    border-bottom: 0.5px white solid;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.container {
+    width: 700px;
+    margin: 10px auto; /*centers the layout*/
+}
+
+.logo {
+    font-family: 'Climate Crisis', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 0px;
+    padding-top: 13px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+/* if you've visited the page the links colour wont change when you use a:visited */
+a, a:visited, a:active {
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+}
+
+/* hoover = mouse is on the element */
+a:hover {
+    color: rgb(158, 213, 233);
+    text-decoration: underline;
+}
+
+.linksillycat {
+    text-decoration: underline;
+}
+
+img{
+    border:2px white solid;
+}
+
+footer {
+    background-color: rgb(40, 40, 41);
+    color: rgb(244, 243, 242);
+    /*
+    font-size: 12xp;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    
+    padding: top, right, bottom, left*/
+    padding: 16px 24px 16px 24px;
+}
